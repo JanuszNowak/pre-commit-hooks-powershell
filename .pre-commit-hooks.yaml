@@ -1,6 +1,6 @@
 -   id: powershell-check
     name: powershell-check
-    entry: powershell Invoke-ScriptAnalyzer -path 
+    entry: powershell Invoke-ScriptAnalyzer .\
     language: system
     files: '\.(ps1)$'
 -   id: dotnet-format
